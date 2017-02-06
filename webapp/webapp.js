@@ -4,7 +4,7 @@ angular.module('backend', ['ngResource']).
       return User;
     });
 
-angular.module('Freader', ['backend'])
+angular.module('Newsfeed', ['backend'])
 	.config(function ($routeProvider) {
 		$routeProvider.
 			when("/", {controller: loginCtrl, template: document.getElementById('loginView').text}).
