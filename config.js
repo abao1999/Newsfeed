@@ -1,5 +1,5 @@
-// Replace here with your MongoDB server address
-exports.database = process.env.MONGODB_URI || process.env.MONGOLAB_URI;
+// Replace here with your MongoDB server address     process.env.MONGODB_URI || process.env.MONGOLAB_URI
+exports.database = "mongodb://heroku_r3zjhrhj:om6b06jthargk5if7uun2o7i93@ds061228.mlab.com:61228/heroku_r3zjhrhj";
 exports.port = process.env.PORT;
 exports.cookieSecret = "1lksdoi38r8h4sle83vn939578fjsldin8";
 
