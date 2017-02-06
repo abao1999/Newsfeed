@@ -1,12 +1,5 @@
-Freader
+Newsfeed
 =======
-
-Now that Google Reader is over, why not use an open source Feed Reader !
-Freader provides you with a simple page with all your feeds and the last item in them.
-You cannot read articles inside the application for now but it's on the TODO list !
-
-You can see it in action in a little Heroku app [here](http://freader-rss.herokuapp.com/)!
-Account creation takes about 10 seconds. Try it!
 
 Features
 --------
@@ -49,12 +42,6 @@ TODO
 * Implement 'Forgot Password?' feature
 * Keep track of the current state of articles : to reed / reeded
 * Add a view with every articles of every feeds
-
-About the creator
------------------
-
-I'm [Guillaume Besson](http://besson.co/) (AKA Geekuillaume), a young and passionate French developer.
-You can contact me on [Twitter](http://twitter.com/geekuillaume) or by [email](mailto:guillaume@besson.com).
 
 License
 -------
