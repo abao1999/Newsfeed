@@ -1,7 +1,7 @@
 <!doctype html>
-<html ng-app="Freader">
+<html ng-app="Newsfeed">
 	<head>
-		<title>Freader</title>
+		<title>Newsfeed</title>
 		<script type="text/javascript">connected = {{alreadyLogged}};</script> <!-- Actual connection state directly in the head, so we don't have to get it with an AJAX request -->
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-resource.min.js"></script>
@@ -16,7 +16,7 @@
 			<div class="container login-screen" id="loginView" ng-controller="loginCtrl">
 
 				<div class="login-icon">
-					<img src="images/icon.png" alt="Welcome to Freader">
+					<img src="images/icon.png" alt="Welcome to Newsfeed">
 					<h4>Welcome to <small>Freader</small></h4>
 				</div>
 				<form ng-submit="action()" class="login-form" name="actionForm">
@@ -40,7 +40,7 @@
 		<script type="text/ng-template" id="feedsView">
 			<div class="container">
 				<header>
-					<h1>Freader</h1>
+					<h1>Newsfeed</h1>
 					<div class="actions">
 						<form ng-submit="addFeed()" class="feedAddForm">
 							<input class="feedAddInput" type="url" ng-class="{active: showNewFeed}" ng-model="newFeedUrl" required placeholder="Feed URL">
